@@ -1,0 +1,11 @@
+{
+    "name": "isaev/bitrix-debug",
+    "description": "The VarDumper Component (bitrix)",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.3",
+        "symfony/var-dumper": "4.4.x-dev"
+    }
+}
