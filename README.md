@@ -5,7 +5,7 @@
 
 *Модуль не требует дополнительных настроек.*  
 
-После установки становится доступны функции:  
+**После установки становится доступны функции:**  
 > Модуль создаёт глобальную функцию  **dump()**, которую вы можете
 > использовать вместо, например [var_dump](https://secure.php.net/manual/en/function.var-dump.php)
 
@@ -25,11 +25,11 @@
 **Использование:**  
 ```php
 $var = array(  
-        'a simple string' => "in an array of 5 elements",  
-        'a float' => 1.0,  
-        'an integer' => 1,  
-        'a boolean' => true,  
-        'an empty array' => array(),  
+    'a simple string' => "in an array of 5 elements",  
+    'a float' => 1.0,  
+    'an integer' => 1,  
+    'a boolean' => true,  
+    'an empty array' => array(),  
 );  
 ddebug($var);  
 ```
@@ -37,4 +37,3 @@ ddebug($var);
 **Результат:**  
 ![](https://symfony.com/doc/4.0/_images/01-simple.png)  
   
-**Подробная информация в вкладке "Установка"**
